@@ -7,24 +7,22 @@ html{
 body{
     margin: 0 auto;
 }
-.header{
-    background-color: #181818;
-    height: 60px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .header p{
+    text-align: center;
+    background-color: #181818;
     color: #f6f6f6;
     font-size: 1.6rem;
+    padding: 8px;
 }
-.logo-name{
+.header .logo-name h1{
     color: #181818;
     font-size: 2.4rem;
     font-weight: 600;
     background-color: #F6F6F6;
     text-align: center;
+    padding: 10px;
+    align-self: center;
 }
 .hero{
     display: flex;
